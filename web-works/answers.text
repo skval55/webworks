@@ -1,0 +1,33 @@
+1. http stands for Hypertext Transfer Protocol. govers how to recieve and get data from the server
+
+2. url stands for Uniform Resource Locator. it is an address for some internet Resource.
+
+3.dns stands for Domain name system. it is what converts the human readable url and turns them
+intp ip addresses for the computer to process
+
+4.the query string is what you can enter key value pairs into url.
+
+5.get- you are getting some data from the server(pulling up a website, search forms)
+post- you are posting data to the server or sending instead of recieving
+
+6. an http request is where a client is requesting to access a resource on a server
+and uses url to request the info.
+
+7. an http response is made by the server to the client by either giving them the requested 
+resource or by informing the client that an error occured.
+
+8.an http header gives you addition information about requests
+304 Not Modified
+Access-Control-Allow-Origin: *
+Age: 2318192
+Cache-Control: public, max-age=315360000
+Connection: keep-alive
+Date: Mon, 18 Jul 2022 16:06:00 GMT
+Server: Apache
+
+9. when you enter the url first,
+using dns it will find the ip address for the server
+then makes a request for that address, then
+the server will send a response, then
+the browser pulls up the site and finds other things it needs to request(like css file or javascript files or imgs)
+then makes requests for the additional files.
